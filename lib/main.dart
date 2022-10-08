@@ -4,5 +4,5 @@ import 'package:flutter_bloc_essentials/my_counter_cubit/my_counter_cubit.dart';
 import 'package:flutter_bloc_essentials/payload/payload.dart';
 
 void main() {
-  runApp(const MyCounterCubitApp());
+  runApp(const MyCounterBlocApp());
 }
