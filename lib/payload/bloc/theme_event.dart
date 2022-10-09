@@ -11,7 +11,7 @@ abstract class ThemeEvent extends Equatable {
 class ChangeThemeEvent extends ThemeEvent {
   final int randInt;
 
-  ChangeThemeEvent({
+  const ChangeThemeEvent({
     required this.randInt,
   });
 
