@@ -16,7 +16,6 @@ class IncrementCounterState extends Equatable {
   IncrementCounterState copyWith({
     int? incrementCounter,
   }) {
-    print("incrementcounter: " + incrementCounter.toString());
     return IncrementCounterState(
       incrementCounter: incrementCounter ?? this.incrementCounter,
     );

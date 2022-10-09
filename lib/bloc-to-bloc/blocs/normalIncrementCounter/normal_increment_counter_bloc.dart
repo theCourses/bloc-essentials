@@ -30,10 +30,7 @@ class NormalIncrementCounterBloc
       }
     });
     on<ChangeCounterEvent>((event, emit) {
-      print(state.counter);
-      state.copyWith(counter: state.counter + incrementSize);
       emit(state.copyWith(counter: state.counter + incrementSize));
-      print(state.counter);
     });
   }
 
