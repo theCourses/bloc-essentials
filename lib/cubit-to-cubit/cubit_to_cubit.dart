@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_essentials/cubit-to-cubit/cubit/colorCubit/color_cubit.dart';
-import 'package:flutter_bloc_essentials/cubit-to-cubit/cubit/counterCubit/counter_cubit.dart';
+import 'package:flutter_bloc_essentials/cubit-to-cubit/cubit/color/color_cubit.dart';
+import 'package:flutter_bloc_essentials/cubit-to-cubit/cubit/counter/counter_cubit.dart';
 
 class CubitToCubitApp extends StatelessWidget {
   const CubitToCubitApp({super.key});

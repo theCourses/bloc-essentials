@@ -4,7 +4,7 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc_essentials/cubit-to-cubit/cubit/colorCubit/color_cubit.dart';
+import 'package:flutter_bloc_essentials/cubit-to-cubit/cubit/color/color_cubit.dart';
 
 part 'counter_state.dart';
 
