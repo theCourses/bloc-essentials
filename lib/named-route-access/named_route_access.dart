@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_essentials/my_counter_cubit/cubit/counter_cubit.dart';
+import 'package:flutter_bloc_essentials/my-counter-cubit/cubit/counter_cubit.dart';
 
 class NamedRouteAccessApp extends StatefulWidget {
   NamedRouteAccessApp({super.key});

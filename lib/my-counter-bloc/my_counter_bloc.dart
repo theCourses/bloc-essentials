@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_essentials/my_counter_bloc/bloc/counter_bloc.dart';
-import 'package:flutter_bloc_essentials/my_counter_bloc/other_page_bloc.dart';
+import 'package:flutter_bloc_essentials/my-counter-bloc/bloc/counter_bloc.dart';
+import 'package:flutter_bloc_essentials/my-counter-bloc/other_page_bloc.dart';
 
 class MyCounterBlocApp extends StatelessWidget {
   const MyCounterBlocApp({super.key});
