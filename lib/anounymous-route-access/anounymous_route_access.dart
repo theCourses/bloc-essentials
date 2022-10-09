@@ -57,7 +57,7 @@ class AnounymousRouteAccessOtherScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('other screen')),
+        appBar: AppBar(title: const Text('other screen')),
         body: Center(
           child: BlocBuilder<CounterCubit, CounterState>(
             builder: (context, state) {
