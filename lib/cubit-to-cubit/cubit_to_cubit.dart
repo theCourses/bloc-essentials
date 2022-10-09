@@ -22,12 +22,22 @@ class CubitToCubitScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Cubit to cubit'),
-      ),
-      body: Center(
-        child: Text('Cubit to cubit app'),
-      ),
-    );
+        appBar: AppBar(
+          title: const Text('Cubit to cubit'),
+        ),
+        body: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ElevatedButton(onPressed: () {}, child: Text('Change Theme')),
+              Text(
+                '0',
+                style: const TextStyle(fontSize: 52.0),
+              ),
+              ElevatedButton(
+                  onPressed: () {}, child: const Text('Increment number'))
+            ],
+          ),
+        ));
   }
 }
